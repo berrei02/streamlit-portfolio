@@ -25,7 +25,10 @@ def run_query(query):
 
 st.write("""
 # Tennis Match Dashboard
-Displaying some simple stats
+Displaying some simple statistics for ATP tennis matches in 2024.
+Overall it seems that Jannik Sinner had an awesome year. 
+Data was pulled from GitHub and is stored, transformed and served via Google BigQuery.
+Data is generated from 
 ## Technologies
 - Storage: Google BigQuery
 - Data Visualization: Streamlit & Plotly
